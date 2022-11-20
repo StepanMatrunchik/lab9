@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: MyGloTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.571 sec <<< FAILURE!
+increaseAmountOfItemByPlusButton(MyGloTest)  Time elapsed: 1.628 sec  <<< FAILURE!
+java.lang.AssertionError: amount is not 5, its 6 expected [5] but found [6]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at MyGloTest.increaseAmountOfItemByPlusButton(MyGloTest.java:41)
+
